@@ -1,0 +1,21 @@
+{
+  "system": {
+    "name": "Sistema de Controle de Equipamentos Eletrônicos",
+    "version": "1.0.0",
+    "description": "Electronic Equipment Control System"
+  },
+  "storage": {
+    "data_file": "equipment_data.json",
+    "backup_enabled": true,
+    "backup_interval": 24
+  },
+  "defaults": {
+    "equipment_status": "off",
+    "location": "Not specified"
+  },
+  "validation": {
+    "max_id_length": 20,
+    "max_name_length": 100,
+    "required_fields": ["id", "name", "type"]
+  }
+}
